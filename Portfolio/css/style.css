@@ -1,0 +1,25 @@
+*{margin: 0; padding: 0;}
+body{ background-color: rgb(194, 238, 238);}
+nav{
+    background-color: rgb(255, 239, 219); 
+    padding: 15px 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.right-side{ width: 60%;}
+.left-side{ width: 40%;}
+#main-menu{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    gap: 25px;
+}
+#main-menu li{
+    list-style-type: none;
+}
+.left-side > a{ text-decoration: none; color: initial;}
+.right-side > a{ text-decoration: none; color: black;}
