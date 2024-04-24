@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="" action="">
+        <fieldset>
+            <legend align="center">My Personal Information</legend>
+            <label for="file">Upload your file:</label>
+        <input type="file" id="file"><br><br>
+        <label for="first">First Name:</label>
+        <input type="text" id="first"><br><br>
+        <label for="last">Last Name:</label>
+        <input type="text" id="last"><br><br>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass"><br><br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email"><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob"><br><br>
+        <label for="">Gender:</label><input type="radio" name="gender" value="Male" id="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="Female" id="female">
+        <label for="female">Female</label><br><br>
+        <label for="time">Time:</label>
+        <input type="time" id="time"><br><br>
+       <label for="phone">Phone Number:</label>
+       <input type="tel" id="phone" pattern="[0-9]{10}"><br><br>
+       <label for="age">Age:</label>
+       <input type="number" id="age" min="1" max="100">
+</fieldset>
+<fieldset>
+    <legend align="center">Additional Information</legend>
+    <label for="">Faculty:</label><input type="checkbox" value="bca" name="bca" id="bca">
+    <label for="bca">BCA</label>
+    <input type="checkbox" name="csit" value="CSIT" id="csit">
+    <label for="csit">CSIT</label>
+    <input type="checkbox" name="bbs" value="bbs" id="bbs">
+    <label for="bbs">BBS</label>
+    <input type="checkbox" name="bbm" value="bbm" id="bbm">
+    <label for="bbm">BBM</label><br><br>
+    <label for="pAddress"><b>Permanent Address: </b></label>
+    <select name="pAddress" id="pAddress">
+        <option value="choose">Choose Province:</option>
+        <option value="p1" name="p1">Province 1</option>
+        <option value="p2" name="p2">Province 2</option>
+        <option value="p3" name="p3">Province 3</option>
+        <option value="p4" name="p4">Province 4</option>
+        <option value="p5" name="p5">Province 5</option>
+        <option value="p6" name="p6">Province 6</option>
+        <option value="p7" name="p7">Province 7</option>
+      </select>
+      <select name="pAddress" id="pAddress">
+        <option value="choose">Choose District:</option>
+        <option value="">Bhojpur</option>
+        <option value="">Dhankuta</option>
+        <option value="">Ilam</option>
+        <option value="">Jhapa</option>
+        <option value="">Khotang</option>
+        <option value="">Morang</option>
+        <option value="">Okhaldhunga</option>
+        <option value="">Panchthar</option>
+        <option value="">Sankhuwasabha</option>
+        <option value="">Solukhumbu</option>
+        <option value="">Sunsari</option>
+        <option value="">Taplejung</option>
+        <option value="">Terhathum</option>
+        <option value="">Udayapur</option>
+      </select><br><br>
+      <label for="tAddress"><b>Temporary Address: </b></label>
+    <select name="tAddress" id="tAddress">
+        <option value="choose">Choose Province:</option>
+        <option value="p1">Province 1</option>
+        <option value="p2">Province 2</option>
+        <option value="p3">Province 3</option>
+        <option value="p4">Province 4</option>
+        <option value="p5">Province 5</option>
+        <option value="p6">Province 6</option>
+        <option value="p7">Province 7</option>
+      </select>
+      <select name="tAddress" id="tAddress">
+        <option value="choose">Choose Municipality:</option>
+        <option value="p1">Chandragiri Municipality</option>
+        <option value="p2">Kritipur Municipality</option>
+        <option value="p3">Tarkshwor Municipality</option>
+        <option value="p4">Province 4</option>
+        <option value="p5">Province 5</option>
+        <option value="p6">Province 6</option>
+        <option value="p7">Province 7</option>
+      </select>
+</fieldset>
+<fieldset>
+    <legend align="center">Write Your Feedback</legend>
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" cols="20" rows="10">
+        </textarea>
+</fieldset>
+<br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+<input type="button" value="Send">
+
+
+    </form>
+</body>
+</html>
