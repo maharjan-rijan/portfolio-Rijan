@@ -1,0 +1,16 @@
+ul li{
+    padding: 4px;
+    background-color: rgb(255, 0, 0);
+    font-size: medium;
+    color: blue;
+    list-style: none;
+    display: inline;
+    float: i;
+    border-right: 2px solid black;
+}
+ul li:hover{
+    background-color: aquamarine;
+}
+ul li:hover::before{
+    background-color: blueviolet;
+}

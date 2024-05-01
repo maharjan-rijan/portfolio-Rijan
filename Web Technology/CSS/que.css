@@ -1,0 +1,14 @@
+.one{
+    margin: 60px;
+    border: 2px solid rgb(255, 0, 0);
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 40px;
+}
+.two{
+    font-size: 50px;
+    font-weight: 900;
+    color: red;
+    background-color: blue;
+}
